@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    background-color: aqua;
+    padding: 15px;
+    width: 25%;
+}
+
+.display {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.screen {
+    display: flex;
+    padding: 5px;
+    justify-content: right;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
