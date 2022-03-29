@@ -9,33 +9,32 @@
     <title>Calculator</title>
 </head>
 <body>
+    <div class="main">
     <div class="calculator">
-        <div class="display">
             <div class="screen">0</div>
             <button class="backspace">⌫</button>
-        </div>
-        <div class="buttons">
             <button class="_clear">AC</button>
-            <button class="_x^">x^</button>
-            <button class="_x!">x!</button>
-            <button class="_/">÷</button>
-            <button ckass="_9">9</button>
-            <button ckass="_8">8</button>
-            <button ckass="_7">7</button>
-            <button ckass="_X">X</button>
-            <button ckass="_6">6</button>
-            <button ckass="_5">5</button>
-            <button ckass="_4">5</button>
-            <button ckass="_-">-</button>
-            <button ckass="_3">3</button>
-            <button ckass="_2">2</button>
-            <button ckass="_1">1</button>
-            <button ckass="_+">5</button>
-            <button ckass="_+/-">+/-</button>
-            <button ckass="_0">0</button>
-            <button ckass="_.">.</button>
-            <button ckass="_=">=</button>
+            <button data-operator="_exp">x^</button>
+            <button class="_fact">x!</button>
+            <button data-operator="_divide">÷</button>
+            <button data-number="_9">9</button>
+            <button data-number="_8">8</button>
+            <button data-number="_7">7</button>
+            <button data-operator="_multiply">X</button>
+            <button data-number="_6">6</button>
+            <button data-number="_5">5</button>
+            <button data-number="_4">4</button>
+            <button data-operator="_subtract">-</button>
+            <button data-number="_3">3</button>
+            <button data-number="_2">2</button>
+            <button data-number="_1">1</button>
+            <button data-operator="_add">+</button>
+            <button class="_plusMinus">+/-</button>
+            <button data-number="_0">0</button>
+            <button class="_decimal">.</button>
+            <button class="_equals">=</button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
